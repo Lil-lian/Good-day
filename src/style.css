@@ -27,3 +27,17 @@ body {
   border-radius: 30px;
   font-size: 16px;
 }
+.weather-city {
+  font-size: 90px;
+}
+.emoji {
+  font-size: 100px;
+}
+h2 {
+  font-size: 60px;
+  line-height: 2px;
+  color: teal;
+}
+.date {
+  color: rgb(189, 147, 228);
+}
