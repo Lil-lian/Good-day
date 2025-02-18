@@ -15,18 +15,19 @@
   <body>
     <div class="container">
       <header>
-        <form action="" class="search-form">
+        <form action="" class="search-form" id="search-form">
           <input
             type="search"
-            placeholder="Search City..."
+            placeholder="Enter City..."
             required
             class="search-input"
+            id="search-input"
           />
           <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
       <main>
-        <h1>Kampala</h1>
+        <h1 class="weather-city" id="city">Kampala</h1>
         <h2>☀️</h2>
         <p>Sunny</p>
         <h3>22°c</h3>
@@ -51,5 +52,6 @@
         >
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
