@@ -28,17 +28,31 @@ body {
   font-size: 16px;
 }
 .weather-city {
-  font-size: 90px;
-}
-.emoji {
-  font-size: 100px;
+  font-size: 60px;
+  font-weight: 900;
+  margin: 0;
 }
 h2 {
-  font-size: 60px;
+  font-size: 38px;
   line-height: 2px;
   color: teal;
+  margin: 20px, 20px;
 }
 .date {
   color: rgb(189, 147, 228);
   font-size: 20px;
+  margin: 0;
+}
+.current-temperature {
+  color: rgb(253, 81, 18);
+  justify-content: right;
+}
+.current-details {
+  color: rgba(39, 33, 66, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.current-details strong {
+  color: rgb(20, 187, 109);
 }
